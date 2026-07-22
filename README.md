@@ -60,6 +60,6 @@ pip install Pillow pygame edge-tts sounddevice vosk pyautogui requests ru-word2n
 ### 4. Database Setup
 On the first run, Jarvis creates an SQLite database `jarvis.db` automatically. It looks for a default track to seed the database. Make sure to download a starting track (e.g., *AC/DC - Back in Black*) and place it in your target path or change this line inside `pcjarvis.py` to a relative path:
 ```python
-path = r"C:\Users\Administrator\Downloads\AC_DC_-_Back_in_Black_OST_Supernatural_(SkySound.cc).mp3"
+path = r"Downloads"
 ```
 
